@@ -6,7 +6,11 @@ import { config, breakpoints } from "./displayConfig";
 const PageContainer = styled.div``;
 
 const Main = styled.div`
-  padding: 30px;
+  padding: 15px;
+
+  @media (min-width: ${breakpoints.small}) {
+    padding: 30px;
+  }
 `;
 
 export default function Page(props) {
