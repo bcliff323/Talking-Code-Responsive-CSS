@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Menu from "./menu";
-import { config, breakpoints } from "./displayConfig";
+import { breakpoints } from "./displayConfig";
 
 const PageContainer = styled.div``;
 
