@@ -18,7 +18,7 @@ export default function Picture() {
         <source srcset={XLarge} media={`(min-width: ${breakpoints.large})`} />
         <source srcset={Large} media={`(min-width: ${breakpoints.medium})`} />
         <source srcset={Medium} media={`(min-width: ${breakpoints.small})`} />
-        <img src={Small} />
+        <img alt="" src={Small} />
       </picture>
     </PictureContainer>
   );
